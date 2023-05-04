@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.boton a {
+    display: flex;
+    border: 2px solid red;
+    padding: 15px 25px;
+    border-radius: 20%;
+    background-color: red;
+    
+    
+}
+div a svg {
+    margin-right: 10px;
+    width: 27px;
+    height: 27px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.paginas ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.redes ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+.redes svg{
+    width: 27px;
+    height: 27px;
+    color: white;
+}
+.paginas svg {
+    width: 40px;
+    height: 40px;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.cajon {
+    background-color: rgba(69, 7, 98, 10);
+    position: fixed;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+
+    
+
+}
+
+.cajon1 a {
+    font-family: 'Comme', sans-serif;
+    color:white;
+    
+}
+
+.home a {
+    color: white;
+}
+
+.tweets {
+    max-height: 500px;
+    overflow-y: scroll; 
+  }
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    margin: 80px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(12, 12, 12);
+display: flex;
+justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+}
+
+.logo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+}
+footer h2 {
+    color: rgba(0, 118, 209, 0.788);
+}
+.iframe iframe {
+    max-width: 100%;
+    height: auto;
+
+}
+div svg {
+    color: rgb(85, 85, 85);
+    width: 37px;
+    height: 37px;
+}
+
+.mibtn {
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
