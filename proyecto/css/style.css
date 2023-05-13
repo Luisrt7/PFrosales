@@ -4,36 +4,17 @@
 
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237,	238, 240);
 }
 
-.boton a {
-    display: flex;
-    border: 2px solid red;
-    padding: 15px 25px;
-    border-radius: 20%;
-    background-color: red;
-    
-    
-}
+
 div a svg {
     margin-right: 10px;
     width: 27px;
     height: 27px;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.paginas ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
+
 .redes ul {
     list-style: none;
     display: flex;
@@ -58,39 +39,19 @@ a {
     align-content: center;
 }
 
-
-.cajon {
-    background-color: rgba(69, 7, 98, 10);
-    position: fixed;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    
-
-    
-
-}
-
-.cajon1 a {
-    font-family: 'Comme', sans-serif;
-    color:white;
-    
-}
-
-.home a {
-    color: white;
-}
-
 .tweets {
+    max-width: 250px;
     max-height: 500px;
     overflow-y: scroll; 
   }
   
 img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 section {
-    margin: 80px;
+    
+    margin-top: 50px;
 }
 
 footer {
@@ -133,3 +94,34 @@ div svg {
     background-color: red;
 } 
         
+
+.navcolor {
+    background-color: rgba(69, 7, 98, 10);
+}
+.navcolor ul a {
+    color: white;
+}
+.navcolor div svg {
+color: white;
+}
+.navcolor div a {
+    color: white;
+}
+
+.mi-contenedor {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 0;
+    margin: 10px;
+    overflow-x: auto;
+    overflow: auto;
+    overflow-y: auto;
+
+}
+@media (max-width: 767px) {
+    .tweets {
+    display: none;
+    }
+    }
