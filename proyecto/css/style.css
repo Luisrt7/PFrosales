@@ -34,15 +34,15 @@ a {
     
 }
 .video{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .tweets {
-    max-width: 250px;
+    max-width: 260PX;
     max-height: 500px;
     overflow-y: scroll; 
+    margin: 0;
   }
   
 img {
@@ -51,7 +51,8 @@ img {
 }
 section {
     
-    margin-top: 50px;
+    margin-top: 50px, 0, 0, 0;
+    
 }
 
 footer {
@@ -97,6 +98,8 @@ div svg {
 
 .navcolor {
     background-color: rgba(69, 7, 98, 10);
+    padding-top: 10px;
+    margin-right: 0;
     color: white;
 }
 .navcolor ul a {
@@ -117,8 +120,6 @@ color: white;
     border: 0;
     margin: 10px;
     overflow-x: auto;
-    overflow: auto;
-    overflow-y: auto;
 
 }
 
@@ -129,10 +130,7 @@ color: white;
     border-radius: 12px;
     border: 0;
     margin: 10px;
-    overflow-x: auto;
-    overflow: auto;
-    overflow-y: auto;
-
+    height:auto;
 }
 
 
@@ -194,4 +192,9 @@ p {
       margin-right: 0;
     }
   }
-  
+  .mi-logo img{
+    width: 20px;
+  }
+  .mi-logo li { 
+    list-style: none;
+  }
