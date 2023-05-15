@@ -46,7 +46,7 @@ a {
   }
   
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
 }
 section {
@@ -119,7 +119,6 @@ color: white;
     border-radius: 12px;
     border: 0;
     margin: 10px;
-    overflow-x: auto;
 
 }
 
@@ -130,7 +129,8 @@ color: white;
     border-radius: 12px;
     border: 0;
     margin: 10px;
-    height:auto;
+    
+    width:31% ;
 }
 
 
@@ -147,6 +147,9 @@ p {
     }
     .footer {
 
+    }
+    .mi-contenedor-2 {
+        width: 100%;
     }
     
     }
@@ -198,3 +201,6 @@ p {
   .mi-logo li { 
     list-style: none;
   }
+h3 {
+    text-align: center;
+}
