@@ -18,7 +18,7 @@ footer ul, .mi-contenedor ul {
   margin: 0;
 }
 
-.redes ul {
+git .redes ul {
   list-style: none;
   display: flex;
   text-decoration: none;
@@ -69,15 +69,15 @@ section {
   margin-top: 50px, 0, 0, 0;
 }
 
-.redes {
+git .redes {
   display: flex;
   justify-content: left;
   align-items: last baseline;
 }
-.redes ul {
+git .redes ul {
   gap: 20px;
 }
-.redes ul svg {
+git .redes ul svg {
   color: white;
   width: 27px;
   height: 27px;
