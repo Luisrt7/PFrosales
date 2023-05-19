@@ -3,103 +3,23 @@
     margin: 0;
 
 }
-
-body {
-    background-color: rgb(237,	238, 240);
-}
-.navv{
+/*  .navv{
     padding: 0;
     margin-right: 0
-}
+} */
 
-div a svg {
+/* header nav div div a svg {
     display: flex;
-    margin-right: 10px;
-    width: 27px;
-    height: 27px;
+    align-items:start;
+
 }
 
-
-.redes ul {
-    list-style: none;
+header nav div div a {
     display: flex;
-    gap: 20px;
-}
-a {
-    text-decoration: none;
-}
-.redes svg{
-    width: 27px;
-    height: 27px;
-    color: white;
-}
-.paginas svg {
-    width: 40px;
-    height: 40px;
-    
-}
-.video{
-    margin: 0 auto;
-    text-align: center;
-}
-
-.tweets {
-    max-width: 350px;
-    max-height: 500px;
-    overflow-y: scroll; 
-  }
-  
-img {
-    max-width: 90%;
-    border-radius: 10px;
-    height: auto;
-}
-section {
-    
-    margin-top: 50px, 0, 0, 0;
-    
-}
-
-footer {
-    color: white;
-    background-color: rgb(12, 12, 12);
-display: flex;
-justify-content: space-between;
-}
-footer ul{
-    list-style: none;
-}
-
-.logo {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-}
-
-.redes {
-    display: flex;
-    justify-content: left;
-    align-items: last baseline;
-}
-footer h2 {
-    color: rgba(0, 118, 209, 0.788);
-}
-.iframe iframe {
-    max-width: 100%;
-    height: auto;
+    align-items: center;
 
 }
-div svg {
-    color: rgb(85, 85, 85);
-    width: 37px;
-    height: 37px;
-}
 
-.mibtn {
-    color: rgb(255, 255, 255);
-    background-color: red;
-} 
-        
 
 .navcolor {
     display: flex;
@@ -120,22 +40,9 @@ color: white;
 }
 .navcolor div a {
     color: white;
-}
-header nav div div a svg {
-    display: flex;
-    align-items:start;
+} */
 
-}
-
-header nav div div a {
-    display: flex;
-    align-items: center;
-
-}
-
-
-
-.mi-contenedor {
+        /* .mi-contenedor {
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -167,7 +74,90 @@ header nav div div a {
     max-width:100%;
     height: auto;
 
+} */
+
+.mibtn {
+    color: rgb(255, 255, 255);
+    background-color: red;
+} 
+
+
+
+
+
+
+div a svg {
+    display: flex;
+    margin-right: 10px;
+    width: 27px;
+    height: 27px;
 }
+
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+}
+.redes svg{
+    width: 27px;
+    height: 27px;
+    color: white;
+}
+
+.video{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tweets {
+    max-width: 350px;
+    max-height: 500px;
+    overflow-y: scroll; 
+  }
+  
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    height: auto;
+}
+section {
+    
+    margin-top: 50px, 0, 0, 0;
+    
+}
+
+
+
+.logo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: left;
+    align-items: last baseline;
+}
+footer h2 {
+    color: rgba(0, 118, 209, 0.788);
+}
+.iframe iframe {
+    max-width: 100%;
+    height: auto;
+
+}
+div svg {
+    color: rgb(85, 85, 85);
+    width: 37px;
+    height: 37px;
+}
+
+
 
 p {
     text-align: start;
@@ -238,4 +228,14 @@ p {
   }
 h3 {
     text-align: center;
+}
+
+footer {
+    color: white;
+    background-color: rgb(12, 12, 12);
+display: flex;
+justify-content: space-between;
+}
+footer ul{
+    list-style: none;
 }
