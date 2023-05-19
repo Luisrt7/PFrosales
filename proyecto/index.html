@@ -18,27 +18,31 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Home</title>
 </head>
+<main>
 
 <body>
 
     <!--Barra de navegacion-->
 
+
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navv">
             <div class="container-fluid navcolor">
-                <div class="live">
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-broadcast-pin" viewBox="0 0 16 16">
-                            <path
-                                d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z" />
-                        </svg>Live</a>
-                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z" />Live
+                            </svg>
+                            <span style="margin-left: 5px;">Live</span>
+                        </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./index.html">Home</a>
                         </li>
@@ -94,7 +98,7 @@
                     <h3>Competitions</h3>
                     <br>
                     <ul class="mi-logo">
-                        <li><img src="./img/Champions.png" alt="Champions League">Champions League</li>
+                        <li><img src="./img/champions.png" alt="Champions League">Champions League</li>
                         <hr>
                         <li><img src="./img/premier.png" alt="Premier League">Premier League</li>
                         <hr>
@@ -102,11 +106,11 @@
                         <hr>
                         <li><img src="./img/uefa.png" alt="Europa League">UEFA Europa League</li>
                         <hr>
-                        <li><img src="./img/f1.png" alt="Formula 1">Fórmula 1</li>
+                        <li><img src="./img/f1.png" alt="Formula 1">Formula 1</li>
                     </ul>
                 </div>
-                <div class="video col-lg-7 col-12 mi-contenedor">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lIkIS7x_jjI"
+                <div class="video col-lg-6 col-12 mi-contenedor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lIkIS7x_jjI" style="border-radius: 12px;"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
@@ -115,9 +119,8 @@
                         debutante Jesé Rodríguez aseguraron los tres puntos para el Real Madrid, quienes fueron
                         superiores en todas las áreas del campo durante todo el partido.</p>
                 </div>
-                <div class="tweets col-lg-3 ">
-                    <a class="twitter-timeline" href="https://twitter.com/premierleague?ref_src=twsrc%5Etfw">Tweets by
-                        premierleague</a>
+                <div class="tweets col-lg-4">
+                    <a class="twitter-timeline" href="https://twitter.com/premierleague?ref_src=twsrc%5Etfw">premierleague</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
@@ -126,29 +129,46 @@
 
     <!--columna 2-->
 
+
     <section>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2 col-12 mi-contenedor">
-                    <h2>Ligue 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, quas doloribus. Laboriosam at
-                        eos officia culpa quidem vel beatae maiores nobis molestias voluptas inventore id perspiciatis,
-                        vero labore nulla aut!</p>
+                    <h2>Other Sports</h2>
+                    <ul class="mi-logo">
+                        <li><a href="#"><img src="./img/sportsicons/auto.png" alt="Racing"></a>Racing</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/basquet.png" alt="Basketball"></a>Basketball</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/beisbol.png" alt="Baseball"></a>Baseball</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/box.png" alt="Box"></a>Box</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/golf.png" alt="Golf"></a>Golf</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/mma.png" alt="MMA"></a>MMA</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/nfl.png" alt="NFL"></a>NFL</li>
+                        <hr>
+                        <li><a href="#"><img src="./img/sportsicons/tenis.png" alt="Tennis"></a>Tennis</li>
+                    </ul>
                 </div>
-                <div class="col-lg-7 col-12 mi-contenedor">
-                    <img src="./img/Cristiano Ronaldo.jpeg" alt="Cristiano">
+                <div class="col-lg-6 col-12 mi-contenedor d-flex flex-column align-items-center">
+                    <img src="./img/cr7.jpeg" alt="Cristiano" >
+                    <hr>
+                    <p>Cristiano Ronaldo, aclamado por muchos como el mejor jugador de la historia, ha dejado una huella imborrable en el fútbol. Su combinación única de habilidad, velocidad, potencia y ambición implacable le ha permitido alcanzar innumerables logros, establecer récords y dejar un legado duradero en el deporte.</p>
                 </div>
-                <div class="left col-lg-2 col-12 mi-contenedor">
+                <div class="left col-lg-3 col-12 mi-contenedor">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum facilis pariatur sapiente.
                     Culpa, eligendi quidem harum ipsam unde rem laudantium esse impedit adipisci dolore aperiam atque
                     nemo nostrum velit!
                 </div>
-
             </div>
         </div>
     </section>
 
     <!--columna 3-->
+
 
     <section>
         <div class="container-fluid">
@@ -159,10 +179,11 @@
                         quibusdam tempora facere fuga eum obcaecati, natus iste qui sequi libero eligendi? Voluptate
                         quod ipsum provident error.</p>
                 </div>
-                <div class="col-lg-7 col-12 mi-contenedor">
-                    <img src="./img/Messi.jpg" alt="Messi">
+                <div class="col-lg-6 col-12 mi-contenedor d-flex flex-column align-items-center">
+                    <img src="./img/messi.jpg" alt="Messi">
+                    <p>Lionel Messi dejó una huella imborrable en el Barcelona durante su trayectoria de 17 años en el club. Su genialidad futbolística, regate excepcional y capacidad goleadora lo convirtieron en una leyenda. Messi lideró al equipo a numerosos títulos, incluyendo 10 La Ligas y 4 Champions League. Su conexión con el Camp Nou y la afición culé quedará grabada para siempre en la historia del fútbol.</p>
                 </div>
-                <div class="col-lg-2 mi-contenedor">
+                <div class="col-lg-3 mi-contenedor">
                     Lorem ipsuus, repudiandae eaque quaerat ilnsdklsbfjlsdbajkdjbjkdsfpsam a aperiam id.
                 </div>
 
@@ -170,7 +191,7 @@
 
         </div>
     </section>
-
+</main>
     <footer>
         <div class="logo">
             <img src="../img/logo-completo2.png" alt="">

@@ -19,21 +19,23 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navv">
             <div class="container-fluid navcolor">
-                <div class="live">
-                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-broadcast-pin" viewBox="0 0 16 16">
-                            <path
-                                d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z" />
-                        </svg>Live</a>
-                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z" />Live
+                            </svg>
+                            <span style="margin-left: 5px;">Live</span>
+                        </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
@@ -84,14 +86,15 @@
             <div class="container-fluid">
                 <div class="row">
                     <h2>Videos</h2>
-                    <div class="col-lg-9 col-12 mi-contenedor">
-                        <iframe width="760" height="460" src="https://www.youtube.com/embed/yJ3MT1wzMDw"
-                            title="YouTube video player" frameborder="0"
+                    <div class="col-lg-8 col-12 mi-contenedor">
+                        <iframe width="760" height="460" src="https://www.youtube.com/embed/yJ3MT1wzMDw" style="border-radius: 12px
+                        ;" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                     </div>
-                    <div class="tweets col-lg-3">
-                        <a class="twitter-timeline tw" href="https://twitter.com/ESbeINSPORTS?ref_src=twsrc%5Etfw">Highlitghs</a>
+                    <div class="tweets col-lg-4">
+                        <a class="twitter-timeline tw"
+                            href="https://twitter.com/ESbeINSPORTS?ref_src=twsrc%5Etfw">Highlitghs</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
 
@@ -138,22 +141,22 @@
             <h2>Media</h2>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-12 mi-contenedor-2">
-                        <img src="../img/Modric.jpg" alt="Luca Modric">
+                    <div class="col-lg-4 col-12 mi-contenedor d-flex flex-column align-items-center">
+                        <img src="../img/modric.jpg" alt="Luca Modric"class="mx-auto">
                         <p>Como modelo de fútbol, Luka Modric ha sido uno de los mejores mediocampistas de su
                             generación. Su habilidad técnica, su inteligencia táctica y su visión del juego son
                             excepcionales, lo que le ha permitido liderar a equipos como el Real Madrid y la
                             selección de Croacia en importantes competiciones a nivel nacional e internacional.</p>
                     </div>
-                    <div class="col-lg-4 col-12 mi-contenedor-2">
-                        <img src=" ../img/Ronaldinho.jpg" alt="Ronaldinho">
+                    <div class="col-lg-4 col-12 mi-contenedor d-flex flex-column align-items-center">
+                        <img src="../img/ronaldino.jpg" alt="Ronaldinho">
                         <p>Ronaldinho es un exfutbolista brasileño que se destacó por su habilidad y técnica en el
                             campo de juego. Conocido por su creatividad y estilo de juego alegre, Ronaldinho fue uno
                             de los mejores jugadores de su época, ganando numerosos títulos a nivel nacional e
                             internacional, incluyendo la Liga de Campeones de la UEFA y la Copa del Mundo de la
                             FIFA.</p>
                     </div>
-                    <div class="col-lg-4 col-12 mi-contenedor-2">
+                    <div class="col-lg-4 col-12 mi-contenedor d-flex flex-column align-items-center">
                         <img src="../img/imagen2.webp" alt="Football">
                         <p>El fútbol americano es un deporte de equipo popular en los Estados Unidos y otros países.
                             Se juega con un balón ovalado y dos equipos de once jugadores cada uno. El objetivo es

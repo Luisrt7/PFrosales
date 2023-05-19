@@ -1,206 +1,96 @@
-*{
-    padding: 0;
-    margin: 0;
-
-}
-body {
-    background-color: rgb(237,	238, 240);
-}
-
-
-div a svg {
-    margin-right: 10px;
-    width: 27px;
-    height: 27px;
+.navv .navcolor {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: radial-gradient(rgba(57, 16, 96, 0.7568627451), #260240);
+  padding-top: 10px;
+  margin-top: 0;
+  margin-right: 0;
 }
 
-
-.redes ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-a {
-    text-decoration: none;
-}
-.redes svg{
-    width: 27px;
-    height: 27px;
-    color: white;
-}
-.paginas svg {
-    width: 40px;
-    height: 40px;
-    
-}
-.video{
-    margin: 0 auto;
-    text-align: center;
+footer ul, .mi-contenedor ul {
+  list-style: none;
+  text-decoration: none;
 }
 
-.tweets {
-    max-width: 260PX;
-    max-height: 500px;
-    overflow-y: scroll; 
-    margin: 0;
-  }
-  
-img {
-    max-width: 90%;
-    height: auto;
-}
-section {
-    
-    margin-top: 50px, 0, 0, 0;
-    
+.navv {
+  padding: 0;
+  margin: 0;
 }
 
-footer {
-    color: white;
-    background-color: rgb(12, 12, 12);
-display: flex;
-justify-content: space-between;
-}
-footer ul{
-    list-style: none;
+git .redes ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  color: white;
 }
 
-.logo {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-}
-
-.redes {
-    display: flex;
-    justify-content: left;
-    align-items: last baseline;
-}
-footer h2 {
-    color: rgba(0, 118, 209, 0.788);
-}
-.iframe iframe {
-    max-width: 100%;
-    height: auto;
-
-}
-div svg {
-    color: rgb(85, 85, 85);
-    width: 37px;
-    height: 37px;
-}
-
-.mibtn {
-    color: rgb(255, 255, 255);
-    background-color: red;
-} 
-        
-
-.navcolor {
-    background-color: rgba(69, 7, 98, 10);
-    padding-top: 10px;
-    margin-right: 0;
-    color: white;
-}
-.navcolor ul a {
-    color: white;
-}
-.navcolor div svg {
-color: white;
-}
-.navcolor div a {
-    color: white;
+.navv .navcolor a {
+  color: white;
+  text-decoration: none;
 }
 
 .mi-contenedor {
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 12px;
-    border: 0;
-    margin: 10px;
-
+  background-color: white;
+  margin: 10px;
+  border-radius: 12px;
+}
+.mi-contenedor img {
+  max-width: 100%;
+  border-radius: 12px;
 }
 
-.mi-contenedor-2 {
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border-radius: 12px;
-    border: 0;
-    margin: 10px;
-    
-    width:31% ;
+.tweets {
+  max-width: 350px;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 
-
-p {
-    text-align: start;
+.mi-logo img {
+  width: 20px;
+  margin-left: 0;
+  margin-right: 7px;
 }
-@media (max-width: 767px) {
-    .tweets {
-    display: none;
-    }
-    iframe {
-        width: 100%;
-        height: auto;
-    }
-    .footer {
 
-    }
-    .mi-contenedor-2 {
-        width: 100%;
-    }
-    
-    }
-
-@media only screen and (max-width: 480px) {
-    footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-    }
-  
-    .logo img {
-      width: 150px;
-    }
-  
-    div:nth-of-type(2),
-    div:nth-of-type(3) {
-      margin-top: 20px;
-      text-align: center;
-    }
-  
-    div:nth-of-type(2) ul,
-    div:nth-of-type(3) ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-  
-    .redes ul {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0 0;
-      padding: 0;
-      list-style: none;
-    }
-  
-    .redes ul li {
-      margin-right: 10px;
-    }
-  
-    .redes ul li:last-child {
-      margin-right: 0;
-    }
-  }
-  .mi-logo img{
-    width: 20px;
-  }
-  .mi-logo li { 
-    list-style: none;
-  }
-h3 {
-    text-align: center;
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
+footer h2 {
+  color: rgba(0, 118, 209, 0.788);
+}
+body {
+  background-color: rgb(237, 238, 240);
+}
+
+section {
+  margin-top: 50px, 0, 0, 0;
+}
+
+git .redes {
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+}
+git .redes ul {
+  gap: 20px;
+}
+git .redes ul svg {
+  color: white;
+  width: 27px;
+  height: 27px;
+}
+
+.mibtn {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+
+.paginas svg {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
