@@ -1,0 +1,96 @@
+.navv .navcolor {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: radial-gradient(rgba(57, 16, 96, 0.7568627451), #260240);
+  padding-top: 10px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+footer ul, .mi-contenedor ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navv {
+  padding: 0;
+  margin: 0;
+}
+
+.redes ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.navv .navcolor a {
+  color: white;
+  text-decoration: none;
+}
+
+.mi-contenedor {
+  background-color: white;
+  margin: 10px;
+  border-radius: 12px;
+}
+.mi-contenedor img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.tweets {
+  max-width: 350px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.mi-logo img {
+  width: 20px;
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2 {
+  color: rgba(0, 118, 209, 0.788);
+}
+body {
+  background-color: rgb(237, 238, 240);
+}
+
+section {
+  margin-top: 50px, 0, 0, 0;
+}
+
+.redes {
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+}
+.redes ul {
+  gap: 20px;
+}
+.redes ul svg {
+  color: white;
+  width: 27px;
+  height: 27px;
+}
+
+.mibtn {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+
+.paginas svg {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

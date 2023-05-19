@@ -1,0 +1,16 @@
+footer {
+    color: white;
+    background-color: map-get($map: $deco, $key: fondo1);
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        color: rgba(0, 118, 209, 0.788)
+    }
+
+    ul {
+        @extend %resetl;
+    }
+
+
+}   
