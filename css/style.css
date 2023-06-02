@@ -1,14 +1,15 @@
 .navv .navcolor {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: left;
   background: radial-gradient(rgba(57, 16, 96, 0.7568627451), #260240);
   padding-top: 10px;
   margin-top: 0;
   margin-right: 0;
+  padding: 0;
 }
 
-footer ul, .mi-contenedor ul {
+footer ul, .mi-contenedor-2 ul, .mi-contenedor ul {
   list-style: none;
   text-decoration: none;
 }
@@ -18,7 +19,7 @@ footer ul, .mi-contenedor ul {
   margin: 0;
 }
 
-git .redes ul {
+.redes ul {
   list-style: none;
   display: flex;
   text-decoration: none;
@@ -34,8 +35,23 @@ git .redes ul {
   background-color: white;
   margin: 10px;
   border-radius: 12px;
+  margin-top: 20px;
 }
 .mi-contenedor img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.mi-contenedor-2 {
+  background-color: white;
+  margin: 10px;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 31%;
+}
+.mi-contenedor-2 img {
   max-width: 100%;
   border-radius: 12px;
 }
@@ -66,18 +82,18 @@ body {
 }
 
 section {
-  margin-top: 50px, 0, 0, 0;
+  margin-top: 50px;
 }
 
-git .redes {
+.redes {
   display: flex;
   justify-content: left;
   align-items: last baseline;
 }
-git .redes ul {
+.redes ul {
   gap: 20px;
 }
-git .redes ul svg {
+.redes ul svg {
   color: white;
   width: 27px;
   height: 27px;
@@ -91,6 +107,233 @@ git .redes ul svg {
 .paginas svg {
   width: 40px;
   height: 40px;
+}
+
+.iframe iframe {
+  max-width: 100%;
+  height: 130%;
+}
+
+.main {
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .tweets {
+    display: none;
+  }
+  iframe {
+    width: 100%;
+    height: 130%;
+  }
+  .mi-contenedor-2 {
+    max-width: 100%;
+  }
+  .mi-contenedor {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .iframe {
+    width: 11.4rem;
+    height: 4.8rem;
+    margin-top: auto;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  div:nth-of-type(2),
+  div:nth-of-type(3) {
+    text-align: center;
+  }
+  div:nth-of-type(2) ul,
+  div:nth-of-type(3) ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .redes ul {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .redes ul li {
+    margin-right: 10px;
+  }
+  .redes ul li:last-child {
+    margin-right: 0;
+  }
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.cajonr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.game-result {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 90%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-result img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.team {
+  flex: 1;
+}
+
+.team-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.goals {
+  color: #888;
+}
+
+.foo {
+  background-color: #d11919;
+}
+
+.cajon2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.marcador img {
+  width: 50px;
+  height: 50px;
+}
+
+.cajonn {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.conte {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.marcador {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.news-container {
+  background: white;
+  margin: 17px;
+  padding: 17px;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.news-container img {
+  border-radius: 7px;
+}
+.news-container .ntitle {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.contenedor-stats {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.contenedor-stats img {
+  max-width: 100%;
+}
+
+.stats {
+  background-color: #ffffff;
+  width: 100%;
+  border-collapse: collapse;
+}
+.stats th, .stats td {
+  padding: 10px;
+}
+.stats img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.stats td:first-child, .stats th:first-child {
+  text-align: left;
+}
+
+.tabla {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  color: #000000;
+}
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table th {
+  background-color: #f2f2f2;
+}
+table img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

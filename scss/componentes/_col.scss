@@ -2,6 +2,27 @@
     background-color: map-get($map: $deco, $key:fondo );
     margin: map-get($map: $deco, $key:separador );
     border-radius: map-get($map: $deco, $key:borde );
+    margin-top: 20px;
+    ul {
+        @extend %resetl;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: map-get($map: $deco, $key:borde );
+    }
+ 
+
+}
+
+.mi-contenedor-2 {
+    background-color: map-get($map: $deco, $key:fondo );
+    margin: map-get($map: $deco, $key:separador );
+    border-radius: map-get($map: $deco, $key:borde );
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 31%;
     ul {
         @extend %resetl;
     }
@@ -25,4 +46,6 @@
     margin-left: 0;
     margin-right: 7px;
   }
+
+  
 

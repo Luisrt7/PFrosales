@@ -14,11 +14,12 @@
 %navcontent{
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: left;
     background:radial-gradient( #391060c1, #260240);
     padding-top: 10px;
     margin-top: 0;
     margin-right: 0;
+    padding:0;
 
 }
 
@@ -44,3 +45,4 @@
     width: 27px;
     color: white;
 }
+
