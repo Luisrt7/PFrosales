@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-footer ul, .mi-contenedor-2 ul, .mi-contenedor ul {
+.mi-contenedor-2 ul, .mi-contenedor ul {
   list-style: none;
   text-decoration: none;
 }
@@ -69,13 +69,64 @@ footer ul, .mi-contenedor-2 ul, .mi-contenedor ul {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
   color: white;
   background-color: black;
-  display: flex;
-  justify-content: space-between;
+}
+footer .logo {
+  margin-bottom: 20px;
 }
 footer h2 {
-  color: rgba(0, 118, 209, 0.788);
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer ul li {
+  text-align: center;
+  margin-bottom: 5px;
+}
+footer .redes {
+  margin-top: 20px;
+}
+footer .redes ul {
+  display: flex;
+  justify-content: center;
+}
+footer .redes ul li {
+  margin: 0 5px;
+}
+
+@media (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .logo {
+    margin-bottom: 10px;
+  }
+  footer .logo img {
+    width: 100px;
+  }
+  footer h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  footer ul li {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  footer .redes ul li {
+    margin: 0 3px;
+  }
 }
 body {
   background-color: rgb(237, 238, 240);
@@ -277,6 +328,7 @@ section {
 }
 .news-container img {
   border-radius: 7px;
+  max-width: 100%;
 }
 .news-container .ntitle {
   font-size: 24px;
@@ -298,7 +350,8 @@ section {
   width: 100%;
   border-collapse: collapse;
 }
-.stats th, .stats td {
+.stats th,
+.stats td {
   padding: 10px;
 }
 .stats img {
@@ -306,7 +359,8 @@ section {
   height: 30px;
   vertical-align: middle;
 }
-.stats td:first-child, .stats th:first-child {
+.stats td:first-child,
+.stats th:first-child {
   text-align: left;
 }
 
@@ -322,7 +376,8 @@ table {
   background-color: #ffffff;
   color: #000000;
 }
-table th, table td {
+table th,
+table td {
   padding: 10px;
   text-align: left;
   border-bottom: 1px solid #ddd;
